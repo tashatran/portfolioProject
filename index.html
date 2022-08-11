@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tasha</title>
+    <meta name="description" content=" Tasha is a Front-end developer in Minneapolis and is excited about building websites"/>
+    <title>Tasha-Front-end Developer</title>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -27,20 +28,39 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+   
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Tasha Page"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Showcasing Projects Page"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact me Page"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <p>👋🏻 Hello, I'm</p>
       <h1>Tasha Tran</h1>
       <h2 class="mb-5">Front-end developer based in Minneapolis, MN</h2>
-      <a href="#" class="btn btn-branding">Contact Me</a>
+      <a href="./contact.html" class="btn btn-branding">Contact Me</a>
     </div>
-    <p class="text-center m-5">
-      Check out my projects
+    <p class="text-center m-5" style="font-size: 30px">
+      Check out my projects and here is my <a href="https://github.com/tashatran/portfolioProject">Github </a> 
     </p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <div class="images">
-          <img src="images/dailyPlanner.png" class="img-fluid" alt="" />
+          <img src="images/dailyPlanner.png" class="img-fluid" style="margin-top: 120px;" alt="daily planner application" />
           </div>
         </div>
         <div class="col">
@@ -49,41 +69,58 @@
             <p class="mb-5 text-muted">
               Simple planner built in JavaScript
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="./work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
       </div>
       <div class="row mb-5">
         <div class="col">
-          <div class="project-desciption">
-            <h2 class="mb-5">Weather App</h2>
+          <div class="project-desciption" style="margin-top: -20px">
+            <h2 class="mb-3">Weather App</h2>
             <p class="mb-5 text-muted">
               React application built with Open weather API
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="./work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <div class="images">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img src="images/weather.png" class="img-fluid" alt="weather application" />
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
           <div class="images">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img src="images/dictionary.png" class="img-fluid" alt="dictionary application" />
           </div>
         </div>
         <div class="col">
-          <div class="project-desciption">
+          <div class="project-desciption" style="margin-top: -50px" >
             <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted">
               React application built with Free Dictionary API and Pexels API
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="./work.html" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
+        <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="./contact.html" class="btn btn-branding mt-3"> Contact me </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="./contact.html" title="contact Tasha" class="email-link">
+            tasha@gmail.com
+          </a>
+        </div>
+        
+      </footer>
       </div>
   </body>
 </html>
